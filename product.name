@@ -1,0 +1,9 @@
+<h1>My Store</h1>
+
+{% for product in products %}
+  <div>
+    <h2>{{ product.name }}</h2>
+    <p>{{ product.price }}</p>
+    <p>{{ product.description }}</p>
+  </div>
+{% endfor %}
